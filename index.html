@@ -11,30 +11,13 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="New Stroy" startnode="6" creator="Twine" creator-version="2.3.8" ifid="35B5FEC8-AEA5-46C3-94D2-378C0DB9FCA2" zoom="1" format="Harlowe" format-version="3.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gaegu:wght@300;400;700&display=swap');
+<tw-storydata name="New Stroy" startnode="1" creator="Twine" creator-version="2.3.8" ifid="35B5FEC8-AEA5-46C3-94D2-378C0DB9FCA2" zoom="1" format="Harlowe" format-version="3.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gaegu:wght@300;400;700&display=swap');
 
 tw-story{
   background: #ffffff;
   color: black;
   background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
   background-size: 100% 100%;
-}
-
-video{
-  width:800px;
-}
-
-#passage3-first{
-  background: yellow;
-  width: 300px;
-  height: 200px;
-}
-
-#passage3-second{
-  background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
-  background-size: 100% 100%;
-  width: 200px;
-  height: 400px;
 }
 
 tw-passage{
@@ -69,14 +52,7 @@ tw-link:hover,
 }
 
 
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="grey" color="gray"></tw-tag><tw-passagedata pid="1" name="첫 번째 passage" tags="" position="402,301" size="100,100">&lt;script&gt;
-	let audio = document.createElement(&#39;audio&#39;);
-	audio.src = &#39;audios/Always_Remember_to_Never_Forget.mp3&#39;;
-	audio.loop = true;
-	audio.play();
-&lt;/script&gt;
-
-(align: &quot;=&gt;&lt;=&quot;)[&lt;img src=images/thug.png&gt;]
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="grey" color="gray"></tw-tag><tw-passagedata pid="1" name="첫 번째 passage" tags="" position="401,304" size="100,100">(align: &quot;=&gt;&lt;=&quot;)[&lt;img src=images/thug.png&gt;]
 
 (align: &quot;=&gt;&lt;=&quot;)[첫 번째 passage 입니다. 만나서 반갑습니다. 이제부터 Twine에 대해 살펴보도록 하겠습니다. 더블 클릭을 통해 passage의 편집 화면으로 전환 가능합니다.]
 enter를 누르면 두 번째 줄을 입력할 수 있습니다.
@@ -127,12 +103,10 @@ enter를 누르면 두 번째 줄을 입력할 수 있습니다.
 
 
 
-</tw-passagedata><tw-passagedata pid="3" name="passage3" tags="story2" position="601,402" size="100,100">&lt;audio src=audios/Big_Gun_Shots_Close.mp3 autoplay&gt;&lt;/audio&gt;
-&lt;video class=&quot;video1&quot; autoplay loop controls&gt;
-	&lt;source src=videos/Trees.mp4 type=&quot;video/mp4&quot;&gt;&lt;/source&gt;
-&lt;/video&gt;
-되접기를 해보겠습니다.
-인터랙티브 스토리텔링
+</tw-passagedata><tw-passagedata pid="3" name="passage3" tags="story2" position="601,401" size="100,100">되접기를 해보겠습니다.
+
+GitHub + Twine
+
 
 [[도망가겠습니까?-&gt;passage5]]
 [[싸우겠습니까?-&gt;passage4]]</tw-passagedata><tw-passagedata pid="4" name="passage4" tags="story2" position="801,296" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="5" name="passage5" tags="story2" position="801,496" size="100,100">(text-style: &quot;bold&quot;)[인터랙티브 스토리텔링]
@@ -156,8 +130,7 @@ enter를 누르면 두 번째 줄을 입력할 수 있습니다.
 (text-style: &quot;fade-in-out&quot;)[인터랙티브 스토리텔링]
 (text-style: &quot;rumble&quot;)[인터랙티브 스토리텔링]
 (text-style: &quot;shudder&quot;)[인터랙티브 스토리텔링]
-</tw-passagedata><tw-passagedata pid="6" name="Start" tags="" position="200,301" size="100,100">스토리를 시작하려면 아래 링크를 클릭하세요
-[[첫 번째 passage]] </tw-passagedata></tw-storydata>
+</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
